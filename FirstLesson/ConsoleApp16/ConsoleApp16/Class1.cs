@@ -7,12 +7,25 @@ using System.Threading.Tasks;
 namespace ConsoleApp16
 {
     class Student
-    {
+    {   
         string time;
-        public string fio;
-        public int course;
+        string fio;
+        int course;
         string institut;
-        public bool dorm;
+        bool dorm;
+        public string FIO
+        {
+            get {return fio; }            
+        }
+        public int Course
+        {
+            get { return course; }
+        }
+        public bool Dorm
+        {
+            get { return dorm; }
+        }
+
         public Student(string time, string fio, int course, string institut, bool dorm)
         {
             this.time = time;
@@ -25,7 +38,7 @@ namespace ConsoleApp16
         {
             this.time = time;
             this.fio = fio;
-            this.course = (int)course[0];
+            this.course = course[0] - '0';
             this.institut = institut;
             this.dorm = dorm.Equals("Да"); ;
 
