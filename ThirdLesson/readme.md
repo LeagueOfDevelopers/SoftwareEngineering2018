@@ -1,1 +1,1 @@
-Third lesson of Margelov Vitaly
+First lesson of Spiridonov Igor
