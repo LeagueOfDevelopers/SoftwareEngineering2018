@@ -34,7 +34,7 @@ namespace ConsoleApp16
             this.institut = institut;
             this.dorm = dorm;
         }
-        public Student(string time, string fio, string course, string institut, string dorm)
+        public Student(string time, string fio, string course, string institut, string dorm)//тест сюда
         {
             this.time = time;
             this.fio = fio;
