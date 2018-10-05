@@ -22,13 +22,41 @@ namespace ConsoleApp16
             Assert.IsFalse(res);
            
 
+        }
+        [TestMethod]
+        public void FileRightExtention_true()
+        {
+            //arrange
+            var file_path = "test.csv";//должен пройти
+            File.Create(file_path);
+
+            //act
+            var res = Program.CorrectExtention(file_path);
+            //assert
+            Assert.IsTrue(res);
+
 
         }
         [TestMethod]
         public void FilePathThatExist_false()
         {
             //arrange
-            var file_path = "test.txt";     
+            var file_path = "test.txt"; 
+            File.Create(file_path);
+                
+
+            //act
+            var res = Program.isOkay(file_path);
+            //assert
+            Assert.IsFalse(res);
+
+
+        }
+        [TestMethod]
+        public void FilePathThatExist_екгу()
+        {
+            //arrange
+            var file_path = "test.txt";
 
             //act
             var res = Program.isOkay(file_path);

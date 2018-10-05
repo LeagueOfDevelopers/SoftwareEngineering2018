@@ -11,9 +11,9 @@ namespace ConsoleApp17
         {
             List<Competition> t=new List<Competition>();
            A:
-            string fun = Console.ReadLine();
-            string name = Console.ReadLine();
-            string second_atr = Console.ReadLine();
+            string fun = args[0];
+            string name = args[1];
+            string second_atr = args[2];
             
             Competition test;
             switch (fun)
@@ -29,11 +29,17 @@ namespace ConsoleApp17
                     test.list.RemoveAt(test.list.IndexOf(second_atr));
                     goto A;
                 default:
-                    break;
+                    Print("Enter correct atribute");
+                    goto A;
                    
 
             }
 
+        }
+
+        private static void Print(string v)
+        {
+            Console.WriteLine(v);
         }
 
         private static Competition findtour(string name, List<Competition> t)
