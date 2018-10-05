@@ -15,6 +15,7 @@ namespace ConsoleApp16
 
             if (!isOkay(file_path))
             {
+                Print("Неверный путь к файлу или разрешение");
                 return; }
 
             string[] data = File.ReadAllLines(file_path, System.Text.Encoding.Default);
@@ -36,7 +37,7 @@ namespace ConsoleApp16
                     PrintArray(course(abitur));
                     break;
                 default:
-                    Print("ERROR");
+                    Print("Неверная функция");
                     return;
             }
             Console.ReadKey();
