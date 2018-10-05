@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp16
 {
-    class Student
+    public class Student
     {   
         string time;
         string fio;

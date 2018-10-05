@@ -8,7 +8,7 @@ namespace ConsoleApp16
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string func=args[0];    
             string file_path = args[1];
@@ -44,13 +44,13 @@ namespace ConsoleApp16
 
         }
 
-        private static bool isOkay(string file_path)//тест сюда
+        public static bool isOkay(string file_path)//тест сюда
         {
             return File.Exists(file_path) && CorrectExtention(file_path);
             
         }
 
-        private static bool CorrectExtention(string file_path)//тест сюда
+        public static bool CorrectExtention(string file_path)//тест сюда
         {
             string exp = "csv";
             return exp.Equals(getFileExtension(file_path));
@@ -62,7 +62,7 @@ namespace ConsoleApp16
         }
 
 
-        private static List<Student> CreateList(string[] data)//тест сюда
+        public static List<Student> CreateList(string[] data)//тест сюда
         {
             List<Student> abitur = new List<Student>();
             string[] b;
@@ -74,7 +74,7 @@ namespace ConsoleApp16
             return abitur;
         }
 
-        private static void PrintArray(int[] v)//тест сюда
+        public static void PrintArray(int[] v)//тест сюда
         {
             for(int i=0;i<v.Length;i++)
             {
@@ -82,7 +82,7 @@ namespace ConsoleApp16
             }
         }
 
-        private static void PrintList(List<string> list)//тест сюда
+        public static void PrintList(List<string> list)//тест сюда
         {
             foreach (string a in list)
             {
@@ -90,19 +90,19 @@ namespace ConsoleApp16
             }
         }
 
-        private static void Print(object obj)//тест сюда
+        public static void Print(object obj)//тест сюда
         {
             Console.WriteLine(obj.ToString());
         }
 
-        private static int count(List<Student> ab)//тест сюда
+        public static int count(List<Student> ab)//тест сюда
         {
             return ab.Count();
         }
 
-        private static List<String> dorm(List<Student> ab)//тест сюда
+        public static List<string> dorm(List<Student> ab)//тест сюда
         {
-            List<String> q = new List<String>();
+            List<string> q = new List<string>();
             foreach (Student a in ab)
             {
                 if(a.Dorm)
@@ -114,7 +114,7 @@ namespace ConsoleApp16
             return q;
         }
 
-        private static int[] course(List<Student> ab)//тест сюда
+        public static int[] course(List<Student> ab)//тест сюда
         {
             int[] c = new int[] {0,0,0,0};
             foreach (Student a in ab)
