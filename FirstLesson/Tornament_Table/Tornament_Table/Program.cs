@@ -36,7 +36,7 @@ namespace Tournament_Table
             }
         }
 
-        static double ChekforExtentOfTwo(List<string> NameAndMembers)
+        public static double ChekforExtentOfTwo(List<string> NameAndMembers)
         {
             var Extent = Math.Log(NameAndMembers.Count - 1, 2);
             if (Extent == Math.Truncate(Extent))
@@ -50,7 +50,7 @@ namespace Tournament_Table
 
 
 
-        static void InputInFile(string FilePath, string TournamentName, List<string> NameAndMembers)
+        public static void InputInFile(string FilePath, string TournamentName, List<string> NameAndMembers)
         {
             if (NameAndMembers.Count >= 2)
             {
@@ -108,7 +108,7 @@ namespace Tournament_Table
                 _true = true;
             }
             NameAndMembers.RemoveRange(count, (NameAndMembers.Count - count));
-            //Volley Marat Gay Holle joki harrold genry Igor LEON
+            //Volley Marat Man Holle joki harrold genry Igor LEON
         }
     }
 }
