@@ -27,15 +27,5 @@ namespace SecondLessonTests
 
 			Assert.AreEqual(anotherNumber, number);
 		}
-
-		private void ChangeOrder(Order order)
-		{
-			order.MarkPaid();
-		}
-
-		private void ChangePrimitive(int number)
-		{
-			number++;
-		}
     }
 }
