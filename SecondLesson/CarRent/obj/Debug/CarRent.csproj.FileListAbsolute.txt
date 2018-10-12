@@ -1,0 +1,7 @@
+C:\Users\markp\Desktop\Programming\C#\League\CarRent\CarRent\obj\Debug\CarRent.csprojAssemblyReference.cache
+C:\Users\markp\Desktop\Programming\C#\League\CarRent\CarRent\obj\Debug\CarRent.csproj.CoreCompileInputs.cache
+C:\Users\markp\Desktop\Programming\C#\League\CarRent\CarRent\bin\Debug\CarRent.dll.config
+C:\Users\markp\Desktop\Programming\C#\League\CarRent\CarRent\bin\Debug\CarRent.dll
+C:\Users\markp\Desktop\Programming\C#\League\CarRent\CarRent\bin\Debug\CarRent.pdb
+C:\Users\markp\Desktop\Programming\C#\League\CarRent\CarRent\obj\Debug\CarRent.dll
+C:\Users\markp\Desktop\Programming\C#\League\CarRent\CarRent\obj\Debug\CarRent.pdb
