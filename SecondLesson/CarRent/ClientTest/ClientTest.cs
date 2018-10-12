@@ -33,6 +33,7 @@ namespace ClientTest
             var time = new RentTime(date1, date2);
 
             clientFacade.RentCar(carFacade1, time);
+
             bool hasException = false;
             try
             {
