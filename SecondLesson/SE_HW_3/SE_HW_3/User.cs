@@ -8,22 +8,20 @@ namespace SE_HW_3
         public string Name { get; }
         public bool DoesHaveRent { get; private set; }
 
-        public List<Car> UserHistory { get; }
-
+        public List<Car> UserHistory { get; private set; }
 
         public User(string name, bool doesHaveRent)
         {
             Name = name;
             DoesHaveRent = doesHaveRent;
+            UserHistory = new List <Car>();
         }
-
-     
 
 
         public void RentCar(User user, Car car, DateTimeOffset startRent, TimeSpan durationRent)
         {
-            //if (car.Status != CarStatus.Free || user.DoesHaveRent )
-                //return;
+            if (car.Status != CarStatus.Free || user.DoesHaveRent )
+                return;
 
             car.ChangeStatus(car, CarStatus.Rented);
             car.RentDuration = durationRent;

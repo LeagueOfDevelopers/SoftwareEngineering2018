@@ -12,30 +12,29 @@ namespace SE_HW_3_Tests
         public void TestAddCarToAllCars_CarAddedToList()
         {
 
-            var testCar = "Kalina";
+            Car testCar = new Car ("Kalina");
 
             RentCompany rentCompany = new RentCompany(new List<Car>());
             FacadeRentCompany facadeRentCompany = new FacadeRentCompany(rentCompany);
 
             facadeRentCompany.AddCar(testCar);
 
-            List<Car> testList = new List<Car>();
-            testList.Add(new Car (testCar));
+            List<Car> testList = new List<Car>{testCar};
 
-            Assert.AreEqual(facadeRentCompany.RentCompany.AllCars, testList);
+            Assert.AreEqual(facadeRentCompany.RentCompany.AllCars[0], testList[0]);
         }
 
 
         [TestMethod]
         public void TestCarToService_SendToService()
         {
-            User testUser = new User("Someuser", false);
+            User testUser = new User("Someuser", true);
             FacadeUser facadeUser = new FacadeUser(testUser);
 
             DateTimeOffset dateOfRent = new DateTimeOffset();
 
             TimeSpan RentDuration = new TimeSpan(7);
-            Car TestCar = new Car("Kalina", new System.Guid(), CarStatus.Rented, 10, 0, dateOfRent, RentDuration);
+            Car TestCar = new Car("Kalina", new Guid(), CarStatus.Rented, 10, 0, dateOfRent, RentDuration);
 
             facadeUser.EndRent(testUser, TestCar);
 

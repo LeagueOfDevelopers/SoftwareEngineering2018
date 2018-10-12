@@ -20,9 +20,9 @@ namespace SE_HW_3
         }
 
 
-        public void AddCar(string model)
+        public void AddCar(Car car)
         {
-            AllCars.Add(new Car(model));
+            AllCars.Add(car);
         }
     }
 }
