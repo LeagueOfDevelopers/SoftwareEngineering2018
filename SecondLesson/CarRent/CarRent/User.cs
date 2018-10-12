@@ -5,8 +5,8 @@ namespace CarRent
 {
     public class User
     {        
-        string _first_name { get; }
-        string _second_name;
+        public string _first_name { get; private set; }
+        public string _second_name { get; private set; }
         public Guid _id;
 
         public User(string first_name, string second_name, Guid id)

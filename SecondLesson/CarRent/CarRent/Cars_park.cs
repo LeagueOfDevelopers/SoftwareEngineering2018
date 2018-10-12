@@ -23,14 +23,16 @@ namespace CarRent
 
         public Car FindCarByID(Guid id)
         {
+            Car finded_car = null;
             foreach (Car car in _list)
             {
                 if(car._id == id)
                 {
-                    return car;
+                    finded_car = car;
+                    return finded_car;
                 }
             }
-            return null;
+            throw new ArgumentNullException("There are no car with that id", nameof(finded_car));
         }
         public void AddNewCarInCarPark(Car adding_car)
         {
@@ -142,7 +144,7 @@ namespace CarRent
             return true;
         }
 
-        public void Print(string text)
+        private void Print(string text)
         {
             Console.WriteLine(text);
         }
