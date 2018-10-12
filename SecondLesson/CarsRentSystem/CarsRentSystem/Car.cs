@@ -7,7 +7,6 @@ namespace CarsRentSystem
    {
       public int    Id    { get; }
       public string Model { get; }
-      public string Park  { get; }
       
       public DateTimeOffset BeginRentDate { get; private set; } = DateTimeOffset.Now;
       public int Quality { get; private set; } = 10;
@@ -15,11 +14,10 @@ namespace CarsRentSystem
       public List<UnavailableDate> RentDates   { get; } = new List<UnavailableDate>();
       public List<UnavailableDate> RepairDates { get; } = new List<UnavailableDate>();
 
-      public Car(int id, string model, string park)
+      public Car(int id, string model)
       {
          Id    = id;
          Model = model;
-         Park  = park;
       }
 
       public void Rent(DateTimeOffset rentStart, DateTimeOffset rentEnd)

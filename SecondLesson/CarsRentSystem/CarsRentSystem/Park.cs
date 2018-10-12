@@ -18,7 +18,7 @@ namespace CarsRentSystem
 
       public void AddCar(string model)
       {
-         Cars.Add(new Car(Cars.Count, model, ParkName));
+         Cars.Add(new Car(Cars.Count, model));
       }
 
       public List<Car> GetAvailableCars(DateTimeOffset rentStart, DateTimeOffset rentEnd)
