@@ -1,1 +1,1 @@
-First lesson of Spiridonov Igor
+Sixth lesson of Spiridonov Igor
