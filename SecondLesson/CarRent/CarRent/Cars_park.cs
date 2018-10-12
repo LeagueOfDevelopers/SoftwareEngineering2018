@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CarRent
 {
-    public class Car_park//: IRepository<Car_park>
+    public class Cars_park
     {
         private List<Car> _list;
         public List<Rent> _list_of_rents { private set; get; }
@@ -12,7 +12,7 @@ namespace CarRent
         private TimeSpan _maintenance_duration;
         private int _amount_of_rent_without_maintenance;
 
-        public Car_park(List<Car> list, List<Rent> list_of_rents, List<Maintenance> list_of_time_maintensnce, TimeSpan maintenance_duration, int amount_of_rent_without_maintenance)
+        public Cars_park(List<Car> list, List<Rent> list_of_rents, List<Maintenance> list_of_time_maintensnce, TimeSpan maintenance_duration, int amount_of_rent_without_maintenance)
         {
             _list = list;
             _list_of_rents = list_of_rents;

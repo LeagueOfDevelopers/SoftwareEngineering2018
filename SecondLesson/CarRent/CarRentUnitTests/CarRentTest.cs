@@ -18,9 +18,9 @@ namespace CarRent
                 new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 2, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 4, 23, 59, 59, TimeSpan.Zero)),
                 new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 10, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 11, 23, 59, 59, TimeSpan.Zero)) };
 
-            Car_park park = new Car_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
+            Cars_park park = new Cars_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
 
-            var exating_rent_list = new List<Rent> {
+            var expected_rent_list = new List<Rent> {
                 new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 2, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 4, 23, 59, 59, TimeSpan.Zero)),
                 new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 10, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 11, 23, 59, 59, TimeSpan.Zero)),
                 new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 5, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 7, 0, 0, 0, TimeSpan.Zero))};
@@ -29,7 +29,7 @@ namespace CarRent
             park.RentCar(tenant, cars_list[0], new DateTimeOffset(2019, 5, 5, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 7, 0, 0, 0, TimeSpan.Zero));
 
 
-            CollectionAssert.ReferenceEquals(park._list_of_rents, exating_rent_list);
+            CollectionAssert.ReferenceEquals(park._list_of_rents, expected_rent_list);
 
         }
         [TestMethod]
@@ -40,12 +40,12 @@ namespace CarRent
             var car_id = Guid.NewGuid();
             var cars_list = new List<Car> { new Car(123, car_id, DateTimeOffset.Now) };
             var rents_list = new List<Rent> { new Rent(second_tenant, cars_list[0], new DateTimeOffset(2019, 5, 2, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 10, 23, 59, 59, TimeSpan.Zero)) };
-            var park = new Car_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
+            var park = new Cars_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
 
-            var exiting_rent_list = rents_list;
+            var expected_rent_list = rents_list;
             park.RentCar(first_tenant, park.FindCarByID(car_id), new DateTimeOffset(2018, 5, 3, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2018, 5, 12, 23, 59, 59, TimeSpan.Zero));
 
-            CollectionAssert.ReferenceEquals(exiting_rent_list, park._list_of_rents);
+            CollectionAssert.ReferenceEquals( expected_rent_list, park._list_of_rents);
 
         }
 
@@ -58,13 +58,13 @@ namespace CarRent
             var rents_list = new List<Rent> {
                 new Rent(tenant, cars_list[1], new DateTimeOffset(2019, 5, 2, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 9, 23, 59, 59, TimeSpan.Zero))};
 
-            Car_park park = new Car_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
+            Cars_park park = new Cars_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
 
-            var exiting_rent_list = rents_list;
+            var expected_rent_list = rents_list;
             park.RentCar(tenant, park.FindCarByID(car_id), new DateTimeOffset(2019, 5, 7, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 11, 23, 59, 59, TimeSpan.Zero));
 
 
-            CollectionAssert.ReferenceEquals(exiting_rent_list, park._list_of_rents);
+            CollectionAssert.ReferenceEquals( expected_rent_list, park._list_of_rents);
 
 
         }
@@ -79,12 +79,12 @@ namespace CarRent
                 new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 2, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 4, 23, 59, 59, TimeSpan.Zero)),
                 new Rent(tenant, cars_list[1], new DateTimeOffset(2019, 5, 10, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 11, 23, 59, 59, TimeSpan.Zero)),
                 new Rent(tenant, cars_list[2], new DateTimeOffset(2019, 5, 20, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 25, 23, 59, 59, TimeSpan.Zero)) };
-            Car_park park = new Car_park(new List<Car>(), new List<Rent>(), new List<Maintenance>(), TimeSpan.FromDays(7), 10);
+            Cars_park park = new Cars_park(new List<Car>(), new List<Rent>(), new List<Maintenance>(), TimeSpan.FromDays(7), 10);
 
-            var exated_list_of_free_cars = new List<Car> { cars_list[0], cars_list[2] };
+            var expected_list_of_free_cars = new List<Car> { cars_list[0], cars_list[2] };
             var list_free_cars = park.ViewListFreeCars(new DateTimeOffset(2019, 5, 10, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 12, 0, 0, 0, TimeSpan.Zero));
 
-            CollectionAssert.ReferenceEquals(exated_list_of_free_cars, list_free_cars);
+            CollectionAssert.ReferenceEquals( expected_list_of_free_cars, list_free_cars);
         }
 
 
@@ -93,7 +93,7 @@ namespace CarRent
         {
             var tenant = new User("Ivan", "Dobry", Guid.NewGuid());
             var second_tenant = new User("Ivan", "Oganesson", Guid.NewGuid());
-            Car_park park = new Car_park(new List<Car>(), new List<Rent>(), new List<Maintenance>(), TimeSpan.FromDays(7), 10);
+            Cars_park park = new Cars_park(new List<Car>(), new List<Rent>(), new List<Maintenance>(), TimeSpan.FromDays(7), 10);
             var cars_list = new List<Car> { new Car(123, Guid.NewGuid(), DateTimeOffset.Now) };
             var rents_list = new List<Rent> {
             new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 2, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 4, 23, 59, 59, TimeSpan.Zero)),
@@ -125,7 +125,7 @@ namespace CarRent
             new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 17, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 18, 23, 59, 59, TimeSpan.Zero)),
             };
 
-            Car_park park = new Car_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
+            Cars_park park = new Cars_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
             park.RentCar(tenant, park.FindCarByID(car_id), new DateTimeOffset(2019, 5, 21, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 22, 23, 59, 59, TimeSpan.Zero));
 
             park.RentCar(tenant, park.FindCarByID(car_id), new DateTimeOffset(2019, 5, 23, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 24, 23, 59, 59, TimeSpan.Zero));
@@ -152,7 +152,7 @@ namespace CarRent
             new Rent(tenant, cars_list[0], new DateTimeOffset(2019, 5, 17, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 18, 23, 59, 59, TimeSpan.Zero)),
             };
 
-            Car_park park = new Car_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
+            Cars_park park = new Cars_park(cars_list, rents_list, new List<Maintenance>(), TimeSpan.FromDays(7), 10);
             park.RentCar(tenant, park.FindCarByID(car_id), new DateTimeOffset(2019, 5, 21, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 22, 23, 59, 59, TimeSpan.Zero));
 
             park.RentCar(tenant, park.FindCarByID(car_id), new DateTimeOffset(2019, 5, 19, 0, 0, 0, TimeSpan.Zero), new DateTimeOffset(2019, 5, 20, 23, 59, 59, TimeSpan.Zero));
