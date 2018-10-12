@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentApp", "CarRentApp\CarRentApp.csproj", "{37A14177-D9D9-4746-A598-06ACB571EE70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentAppTest", "CarRentAppTest\CarRentAppTest.csproj", "{00DF42A1-74D6-4C2A-A5E7-5D62FCFEBE81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37A14177-D9D9-4746-A598-06ACB571EE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A14177-D9D9-4746-A598-06ACB571EE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A14177-D9D9-4746-A598-06ACB571EE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A14177-D9D9-4746-A598-06ACB571EE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DF42A1-74D6-4C2A-A5E7-5D62FCFEBE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DF42A1-74D6-4C2A-A5E7-5D62FCFEBE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DF42A1-74D6-4C2A-A5E7-5D62FCFEBE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DF42A1-74D6-4C2A-A5E7-5D62FCFEBE81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF94E902-782D-4C51-8F9E-15BE1107025E}
+	EndGlobalSection
+EndGlobal
