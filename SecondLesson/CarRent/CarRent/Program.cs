@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace CarRent
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            
+            //Для сохранения сущностей пользуйтесь паттерном Repository.
+            //В качестве программного эндпоинта для приложения используйте паттерн Facade.
+
         }
+
+
     }
 }

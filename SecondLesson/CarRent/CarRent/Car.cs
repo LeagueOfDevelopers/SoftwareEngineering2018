@@ -4,16 +4,17 @@ using System;
 
 namespace CarRent
 {
-    class Car
-    {
-        List<CarRent> _tenants_list;
-        int _number;
+    public class Car
+    {        
+        public int _number;
+        public Guid _id;
+        public DateTimeOffset _end_date_of_last_maintenance;
 
-        public void RentCar(User tenant, DateTimeOffset date_of_begining, DateTimeOffset date_of_ending )
+        public Car(int number, Guid id, DateTimeOffset first_possible_rentdate)
         {
-            _tenants_list.Add(new CarRent(tenant._id, date_of_begining, date_of_ending));
+            _number = number;
+            _id = id;
+            _end_date_of_last_maintenance = first_possible_rentdate;
         }
-
-        
     }
 }
