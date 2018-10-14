@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CarRent.Application
 {
-	public class ManagerService
-    {
+	public class ManagerService : IManagerService
+	{
 		public ManagerService(
-			CarRepository carRepository,
-			ClientRepository clientRepository,
+			ICarRepository carRepository,
+			IClientRepository clientRepository,
 			int rentsAmountBeforeMaintenance, 
 			int maintenancePeriodInDays)
 		{
@@ -37,8 +36,8 @@ namespace CarRent.Application
 			return client.Id;
 		}
 
-		private readonly CarRepository _carRepository;
-		private readonly ClientRepository _clientRepository;
+		private readonly ICarRepository _carRepository;
+		private readonly IClientRepository _clientRepository;
 		private readonly int _rentsAmountBeforeMaintenance;
 		private readonly int _maintenancePeriodInDays;
 	}

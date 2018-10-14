@@ -3,19 +3,19 @@ using System.Collections.Generic;
 
 namespace CarRent
 {
-	public class CarRepository
-    {
-		public Car[] Cars => _cars.ToArray();
+	public class CarRepository : ICarRepository
+	{
+		public ICar[] Cars => _cars.ToArray();
 
-		public Car GetCar(Guid carId)
+		public ICar GetCar(Guid carId)
 		{
 			return TryGetCar(carId) ?? throw new InvalidOperationException(
 				$"Car with id {carId} not found");
 		}
 
-		public void SaveCar(Car car)
+		public void SaveCar(ICar car)
 		{
-			Car existantCar = TryGetCar(car.Id);
+			ICar existantCar = TryGetCar(car.Id);
 
 			if (existantCar != null)
 			{
@@ -25,7 +25,7 @@ namespace CarRent
 			_cars.Add(car);
 		}
 
-		private Car TryGetCar(Guid carId)
+		private ICar TryGetCar(Guid carId)
 		{
 			foreach (var car in _cars)
 			{
@@ -38,6 +38,6 @@ namespace CarRent
 			return null;
 		}
 
-		private List<Car> _cars;
+		private List<ICar> _cars;
     }
 }

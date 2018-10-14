@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace CarRent
 {
-	public class Car
-    {
+	public class Car : ICar
+	{
 		public Car(
 			Guid id, 
 			string name,
@@ -30,7 +30,7 @@ namespace CarRent
 
 		public string Color { get; }
 
-		public Rent[] Rents => _rents.ToArray();
+		public IEnumerable<Rent> Rents => _rents;
 		
 		public bool IsAvailableOnPeriod(DatePeriod period)
 		{

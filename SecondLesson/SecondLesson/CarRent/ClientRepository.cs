@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace CarRent
 {
-	public class ClientRepository
-    {
-		public Client GetClient(Guid clientId)
+	public class ClientRepository : IClientRepository
+	{
+		public IClient GetClient(Guid clientId)
 		{
 			return TryGetClient(clientId) ?? throw new InvalidOperationException(
 				$"Client with id {clientId} not found");
 		}
 
-		public void SaveClient(Client client)
+		public void SaveClient(IClient client)
 		{
 			var existantClient = TryGetClient(client.Id);
 			if (existantClient != null)
@@ -22,7 +22,7 @@ namespace CarRent
 			_clients.Add(client);
 		}
 
-		private Client TryGetClient(Guid clientId)
+		private IClient TryGetClient(Guid clientId)
 		{
 			foreach (var client in _clients)
 			{
@@ -35,6 +35,6 @@ namespace CarRent
 			return null;
 		}
 
-		private readonly List<Client> _clients;
+		private readonly List<IClient> _clients;
     }
 }

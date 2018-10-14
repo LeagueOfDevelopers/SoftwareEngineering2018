@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace CarRent
 {
-	public class Client
-    {
+	public class Client : IClient
+	{
 		public Client(Guid id, string name, Rent[] rents)
 		{
 			Id = id;

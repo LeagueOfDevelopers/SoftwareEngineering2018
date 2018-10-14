@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace CarRent.Application
 {
-	public class ClientService
-    {
-		public ClientService(CarRepository carRepository, ClientRepository clientRepository)
+	public class ClientService : IClientService
+	{
+		public ClientService(ICarRepository carRepository, IClientRepository clientRepository)
 		{
 			_carRepository = carRepository ?? throw new ArgumentNullException(nameof(carRepository));
 			_clientRepository = clientRepository ?? throw new ArgumentNullException(nameof(clientRepository));
 		}
 
-		public Car[] ShowCarsAvailable(Guid clientId, DatePeriod datePeriod)
+		public ICar[] ShowCarsAvailable(Guid clientId, DatePeriod datePeriod)
 		{
 			var client = _clientRepository.GetClient(clientId);
 
@@ -21,7 +21,7 @@ namespace CarRent.Application
 			}
 
 			var allCars = _carRepository.Cars;
-			var availableCars = new List<Car>();
+			var availableCars = new List<ICar>();
 			foreach (var car in allCars)
 			{
 				if (car.IsAvailableOnPeriod(datePeriod))
@@ -61,7 +61,7 @@ namespace CarRent.Application
 			return client.Rents;
 		}
 
-		private readonly CarRepository _carRepository;
-		private readonly ClientRepository _clientRepository;
+		private readonly ICarRepository _carRepository;
+		private readonly IClientRepository _clientRepository;
 	}
 }

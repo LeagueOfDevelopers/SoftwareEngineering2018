@@ -36,5 +36,18 @@ namespace CarRentTests
 
 			Assert.IsTrue(intersect);
 		}
+
+		[TestMethod]
+		public void DatePeriodEquals_ReturnTrue()
+		{
+			var start = DateTimeOffset.Now;
+			var end = DateTimeOffset.Now.AddDays(1);
+			var firstPeriod = new DatePeriod(start, end);
+			var secondPeriod = new DatePeriod(start, end);
+
+			var areEqual = firstPeriod == secondPeriod;
+
+			Assert.IsTrue(areEqual);
+		}
     }
 }

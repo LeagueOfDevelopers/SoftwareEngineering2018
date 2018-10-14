@@ -101,8 +101,6 @@ namespace CarRentTests
 			var car = CreateCarWithSingleRent(existantRentStartDate, existantRentEndDate);
 
 			var rent = car.Rent(requestedPeriod);
-
-			CollectionAssert.Contains(car.Rents, rent);
 		}
 
 		[TestMethod]
