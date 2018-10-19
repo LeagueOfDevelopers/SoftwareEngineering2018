@@ -1,0 +1,9 @@
+/Users/leon/Projects/LeonChat/LeonChat/bin/Debug/netcoreapp2.1/LeonChat.deps.json
+/Users/leon/Projects/LeonChat/LeonChat/bin/Debug/netcoreapp2.1/LeonChat.dll
+/Users/leon/Projects/LeonChat/LeonChat/bin/Debug/netcoreapp2.1/LeonChat.pdb
+/Users/leon/Projects/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.AssemblyInfo.cs
+/Users/leon/Projects/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.dll
+/Users/leon/Projects/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.pdb
+/Users/leon/Projects/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.csprojAssemblyReference.cache
