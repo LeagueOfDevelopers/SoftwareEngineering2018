@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Messenger
 {
-    public class Group : IChat
+    public class Group : IChat, IGroup
     {
         public Group(
             Guid id,
@@ -58,12 +58,17 @@ namespace Messenger
             UserRepository.UpdateItem(user);
         }
 
+        public void RemoveUser(IUser user)
+        {
+            UserRepository.DeleteItem(user);
+        }
+
         public void AddAdmin(IUser newAdmin)
         {
             AdminRepository.AddItem(newAdmin);
         }
 
-        internal void RemoveAdmin(IUser oldAdmin)
+        public void RemoveAdmin(IUser oldAdmin)
         {
             AdminRepository.DeleteItem(oldAdmin);
         }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Messenger
 {
-    public class Channel : IChat
+    public class Channel : IChat, IChannel
     {
         public Channel(
             Guid id,
@@ -58,6 +58,11 @@ namespace Messenger
         public void AddUser(IUser user)
         {
             UserRepository.AddItem(user);
+        }
+
+        public void RemoveUser(IUser user)
+        {
+            UserRepository.DeleteItem(user);
         }
 
         public void AddAdmin(IUser newAdmin)

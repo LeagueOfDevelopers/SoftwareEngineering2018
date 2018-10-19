@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="Channel\Channel.cs" />
     <Compile Include="Channel\ChannelService.cs" />
+    <Compile Include="Channel\IChannel.cs" />
     <Compile Include="CompositionRoot.cs" />
     <Compile Include="Group\GroupService.cs" />
+    <Compile Include="Group\IGroup.cs" />
     <Compile Include="IChatService.cs" />
     <Compile Include="PrivateChat\PrivateChat.cs" />
     <Compile Include="User\User.cs" />
