@@ -5,18 +5,18 @@ namespace CarRent
 {
     public class Client
     {
-        public string Id { get; }
+        public Guid Id { get; }
         public string Name { get; }
         public Dictionary<RentTime, CarFacade> RentHistory { get; private set; }
 
         public Client(string name)
         {
-            Id = Guid.NewGuid().ToString();
+            Id = Guid.NewGuid();
             Name = name;
             RentHistory = new Dictionary<RentTime, CarFacade>();
         }
 
-        public Client(string id, string name, Dictionary<RentTime, CarFacade> ownedCarHistory)
+        public Client(Guid id, string name, Dictionary<RentTime, CarFacade> ownedCarHistory)
         {
             Id = id;
             Name = name;

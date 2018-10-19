@@ -5,7 +5,7 @@ namespace CarRent
 {
     public class Car
     {
-        public string Id { get; }
+        public Guid Id { get; }
         public string Name { get; }
         public List<RentTime> Rents { get; private set; }
         public List<RentTime> Services { get; private set; }
@@ -30,14 +30,14 @@ namespace CarRent
 
         public Car(string name)
         {
-            Id = Guid.NewGuid().ToString();
+            Id = Guid.NewGuid();
             Name = name;
             Rents = new List<RentTime>();
             Services = new List<RentTime>();
             CountToService = 0;
         }
 
-        public Car(string id, string name, List<RentTime> rentsHistory,
+        public Car(Guid id, string name, List<RentTime> rentsHistory,
             List<RentTime> servicesHistory, int countToService)
         {
             Id = id;
