@@ -1,1 +1,1 @@
-Third lesson of Margelov Vitaly
+Third lesson of Vishnevsky Mark
