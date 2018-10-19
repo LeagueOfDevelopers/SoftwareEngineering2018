@@ -58,12 +58,13 @@ namespace Messenger
 
         public void RemoveMessage(Guid message_id, Guid user_id)
         {
-            if (followers.TryGetValue(user_id, out IUser finded_user) && messages.TryGetValue(message_id, out IMessage finded_message))
+            if (followers.ContainsKey(user_id) && messages.ContainsKey(message_id))
             {
-                if (finded_message._author == finded_user || admins.ContainsKey(user_id))
+                if (admins.ContainsKey(user_id))
                 {
                     messages.Remove(message_id);
                 }
+                else throw new InvalidOperationException($"You are not admin");
             }
             else throw new InvalidOperationException($"Message or user does not exist");
 

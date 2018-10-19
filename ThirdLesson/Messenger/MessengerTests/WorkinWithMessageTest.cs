@@ -53,6 +53,7 @@ namespace MessengerTests
 
 
         }
+    
         [TestMethod]
         public void UserTryToChangeMessageAnotherUserInConversation_Exception()
         {
@@ -158,6 +159,18 @@ namespace MessengerTests
             var expected_channel = new Channel(Guid.Empty, "test", new Dictionary<Guid, IUser>() { { admin._id, admin } }, new Dictionary<Guid, IUser>() { { admin._id, admin } }, new Dictionary<Guid, IMessage>());
 
             Assert.ReferenceEquals(channel, expected_channel);
+
+        }
+
+        [TestMethod]
+        public void UserTryToRemoveOwnMessageInСhannel_Excaption()
+        {
+            var current_user = new User("ivan", Guid.NewGuid());
+            var message = new Message("text", Guid.NewGuid(), current_user, DateTimeOffset.MinValue);
+            var channel = new Channel(Guid.Empty, "test", new Dictionary<Guid, IUser>(), new Dictionary<Guid, IUser>() { {current_user._id, current_user } }, new Dictionary<Guid, IMessage>() { { message._id, message } });
+
+            Assert.ThrowsException<InvalidOperationException>(() => channel.RemoveMessage( message._id, current_user._id));
+
 
         }
         [TestMethod]
