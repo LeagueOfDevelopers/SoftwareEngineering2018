@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChannelTests.cs" />
+    <Compile Include="ExtensionTest.cs" />
     <Compile Include="GroupTests.cs" />
     <Compile Include="MessageTests.cs" />
     <Compile Include="PrivateChatTests.cs" />

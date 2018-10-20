@@ -66,7 +66,10 @@
     <Compile Include="Domain\PublicChat.cs" />
     <Compile Include="Domain\User.cs" />
     <Compile Include="Infrastructure\InMemoryChatRepository.cs" />
+    <Compile Include="Infrastructure\InMemoryRepository.cs" />
     <Compile Include="Infrastructure\InMemoryUserRepository.cs" />
+    <Compile Include="Infrastructure\Option.cs" />
+    <Compile Include="Infrastructure\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

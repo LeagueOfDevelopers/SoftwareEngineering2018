@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeagueGram.Infrastructure;
+using System;
 
 namespace LeagueGram.Domain
 {
@@ -13,6 +14,7 @@ namespace LeagueGram.Domain
 
     public Guid Id { get; }
     public string Nickname { get; }
+	public Option<string> AvatarUrl { get; }
     public DateTimeOffset RegistrationDate { get; }
   }
 }
