@@ -1,1 +1,1 @@
-Sixth lesson of Margelov Vitaly
+Sixth lesson of Kuznetsova Tatiana

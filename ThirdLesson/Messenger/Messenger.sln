@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger", "Messenger\Messenger.csproj", "{C9592618-8C23-44A9-A466-F62A05D0DA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerTests", "MessengerTests\MessengerTests.csproj", "{B890DC96-3384-4170-929B-7C6190B68520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9592618-8C23-44A9-A466-F62A05D0DA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9592618-8C23-44A9-A466-F62A05D0DA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9592618-8C23-44A9-A466-F62A05D0DA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9592618-8C23-44A9-A466-F62A05D0DA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B890DC96-3384-4170-929B-7C6190B68520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B890DC96-3384-4170-929B-7C6190B68520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B890DC96-3384-4170-929B-7C6190B68520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B890DC96-3384-4170-929B-7C6190B68520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B73E9C4E-5D05-4E7C-8778-7C6644434CC0}
+	EndGlobalSection
+EndGlobal
