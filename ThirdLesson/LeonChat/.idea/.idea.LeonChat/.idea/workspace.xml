@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07ac44db-3de7-4048-a19e-dfb985ca2759" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="714359450">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1566" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1566" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeonChat" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeonChat/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1539965918342" expanded="false" signature="6:39" ph="..." />
+                <marker date="1539965918342" expanded="true" signature="59:2005" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="83:2003" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="143:184" ph="{...}" />
+                <marker date="1539965918342" expanded="false" signature="262:503" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="288:405" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="435:493" ph="{...}" />
+                <marker date="1539965918342" expanded="false" signature="555:769" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="581:654" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="684:759" ph="{...}" />
+                <marker date="1539965918342" expanded="false" signature="836:1069" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="862:971" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="1001:1059" ph="{...}" />
+                <marker date="1539965918342" expanded="false" signature="1131:1363" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="1157:1265" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="1295:1353" ph="{...}" />
+                <marker date="1539965918342" expanded="false" signature="1440:1678" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="1466:1580" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="1610:1668" ph="{...}" />
+                <marker date="1539965918342" expanded="false" signature="1753:1997" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="1779:1899" ph="{...}" />
+                <marker date="1539965918342" expanded="true" signature="1929:1987" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Group</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/LeonChat/Channel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChat/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChatTests/PersonalChatTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChat/PersonalChat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChat/IChat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChat/Group.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChatTests/GroupTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChatTests/ChannelTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonChat/Message.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LeonChat/Message.cs" />
+        <option value="$PROJECT_DIR$/LeonChatTests/GroupTests.cs" />
+        <option value="$PROJECT_DIR$/LeonChatTests/ChannelTests.cs" />
+        <option value="$PROJECT_DIR$/LeonChat/IChat.cs" />
+        <option value="$PROJECT_DIR$/LeonChatTests/PersonalChatTests.cs" />
+        <option value="$PROJECT_DIR$/LeonChat/PersonalChat.cs" />
+        <option value="$PROJECT_DIR$/LeonChat/Group.cs" />
+        <option value="$PROJECT_DIR$/LeonChat/Channel.cs" />
+        <option value="$PROJECT_DIR$/LeonChat/User.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollToSource SolutionExplorer="false" />
+      <autoscrollFromSource SolutionExplorer="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LeonChat" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LeonChat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LeonChat" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LeonChat" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LeonChatTests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07ac44db-3de7-4048-a19e-dfb985ca2759" name="Default Changelist" comment="" />
+      <created>1539888025885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539888025885</updated>
+      <workItem from="1539888032556" duration="5237000" />
+      <workItem from="1539938596692" duration="122000" />
+      <workItem from="1539950082668" duration="1316000" />
+      <workItem from="1539959834068" duration="5000000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11675000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.19789983" />
+      <window_info id="Structure" order="1" sideWeight="0.50136983" side_tool="true" weight="0.24555735" />
+      <window_info id="Favorites" order="2" sideWeight="0.50136983" side_tool="true" weight="0.24555735" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.28767124" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.30547947" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" weight="0.0" />
+      <window_info id="Structure" order="1" sideWeight="0.50136983" side_tool="true" weight="0.24555735" />
+      <window_info id="Favorites" order="2" sideWeight="0.50136983" side_tool="true" weight="0.24555735" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.28767124" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Unit Tests" order="11" visible="true" weight="0.30547947" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LeonChat/Message.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChatTests/PersonalChatTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="94" column="74" selection-start-line="94" selection-start-column="74" selection-end-line="94" selection-end-column="74" />
+          <folding>
+            <marker date="1539963388810" expanded="true" signature="6:134" ph="..." />
+            <marker date="1539963388810" expanded="true" signature="160:5023" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="213:5021" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="292:842" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="919:1372" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="1463:1874" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="1962:2476" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="2571:3113" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="3202:3560" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="3641:4132" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="4212:4581" ph="{...}" />
+            <marker date="1539963388810" expanded="true" signature="4662:5015" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChatTests/ChannelTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="182" column="17" selection-start-line="182" selection-start-column="17" selection-end-line="182" selection-end-column="17" />
+          <folding>
+            <marker date="1539892555895" expanded="false" signature="6:134" ph="..." />
+            <marker date="1539892555895" expanded="true" signature="159:7051" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="207:7049" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="297:936" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="1013:1525" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="1620:2232" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="2338:2833" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="2921:3400" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="3495:4055" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="4144:4541" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="4622:5201" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="5281:5736" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="5817:6387" ph="{...}" />
+            <marker date="1539892555895" expanded="true" signature="6472:7043" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/Group.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <marker date="1539963896897" expanded="false" signature="6:73" ph="..." />
+            <marker date="1539963896897" expanded="true" signature="93:2860" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="126:2858" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="401:554" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="616:821" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="887:1027" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="1091:1505" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="1583:1927" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="1985:2114" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="2176:2312" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="2355:2423" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="2472:2546" ph="{...}" />
+            <marker date="1539963896897" expanded="true" signature="2618:2852" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/Channel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <marker date="1539963957743" expanded="false" signature="6:73" ph="..." />
+            <marker date="1539963957743" expanded="true" signature="93:2630" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="128:2628" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="410:571" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="633:832" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="898:1044" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="1108:1413" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="1491:1706" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="1764:1893" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="1955:2085" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="2128:2196" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="2245:2319" ph="{...}" />
+            <marker date="1539963957743" expanded="true" signature="2391:2622" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChatTests/GroupTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="177" selection-end-column="1" />
+          <folding>
+            <marker date="1539892256061" expanded="false" signature="6:134" ph="..." />
+            <marker date="1539892256061" expanded="true" signature="160:6372" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="206:6370" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="285:900" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="977:1481" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="1572:2172" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="2260:2731" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="2826:3376" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="3465:3854" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="3935:4504" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="4584:5032" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="5113:5696" ph="{...}" />
+            <marker date="1539892256061" expanded="true" signature="5780:6364" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/PersonalChat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="98" selection-start-line="38" selection-start-column="98" selection-end-line="38" selection-end-column="152" />
+          <folding>
+            <marker date="1539963812865" expanded="false" signature="6:73" ph="..." />
+            <marker date="1539963812865" expanded="true" signature="93:2490" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="133:2488" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="336:483" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="545:750" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="813:953" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="1017:1426" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="1504:1848" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="1906:1955" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="2017:2073" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="2116:2199" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="2248:2322" ph="{...}" />
+            <marker date="1539963812865" expanded="true" signature="2388:2482" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/IAdmin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/IUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/Admin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/IChat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1539889550007" expanded="false" signature="6:39" ph="..." />
+            <marker date="1539889550007" expanded="true" signature="59:584" ph="{...}" />
+            <marker date="1539889550007" expanded="true" signature="88:582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonChat/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1539965918342" expanded="false" signature="6:39" ph="..." />
+            <marker date="1539965918342" expanded="true" signature="59:2005" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="83:2003" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="143:184" ph="{...}" />
+            <marker date="1539965918342" expanded="false" signature="262:503" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="288:405" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="435:493" ph="{...}" />
+            <marker date="1539965918342" expanded="false" signature="555:769" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="581:654" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="684:759" ph="{...}" />
+            <marker date="1539965918342" expanded="false" signature="836:1069" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="862:971" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="1001:1059" ph="{...}" />
+            <marker date="1539965918342" expanded="false" signature="1131:1363" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="1157:1265" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="1295:1353" ph="{...}" />
+            <marker date="1539965918342" expanded="false" signature="1440:1678" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="1466:1580" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="1610:1668" ph="{...}" />
+            <marker date="1539965918342" expanded="false" signature="1753:1997" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="1779:1899" ph="{...}" />
+            <marker date="1539965918342" expanded="true" signature="1929:1987" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

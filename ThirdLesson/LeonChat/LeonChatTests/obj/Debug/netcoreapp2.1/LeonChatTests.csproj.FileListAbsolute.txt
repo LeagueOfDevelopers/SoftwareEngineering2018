@@ -1,0 +1,17 @@
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.deps.json
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.runtimeconfig.json
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.runtimeconfig.dev.json
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.dll
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.pdb
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChat.dll
+/Users/leon/Projects/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChat.pdb
+/Users/leon/Projects/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.AssemblyInfo.cs
+/Users/leon/Projects/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.csproj.CopyComplete
+/Users/leon/Projects/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.dll
+/Users/leon/Projects/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.pdb
+/Users/leon/Projects/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.csprojAssemblyReference.cache

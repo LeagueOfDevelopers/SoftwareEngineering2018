@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeonChat", "LeonChat.csproj", "{141EF62B-310E-4CD9-A26A-DA38814EF00B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141EF62B-310E-4CD9-A26A-DA38814EF00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141EF62B-310E-4CD9-A26A-DA38814EF00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141EF62B-310E-4CD9-A26A-DA38814EF00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141EF62B-310E-4CD9-A26A-DA38814EF00B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

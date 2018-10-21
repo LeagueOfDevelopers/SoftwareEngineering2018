@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{893C9C1D-6405-4EDE-BD02-55099CA50CF7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LeonChatTests/GroupTests.cs">
+    <Files>
+      <File FileName="LeonChat/Group.cs" Line="22" Column="47" />
+      <File FileName="LeonChatTests/GroupTests.cs" Line="10" Column="16" />
+      <File FileName="LeonChat/Channel.cs" Line="42" Column="13" />
+      <File FileName="LeonChatTests/ChannelTests.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.LeonChatTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
