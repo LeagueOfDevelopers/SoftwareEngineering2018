@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/leon/Projects/LeonLearn/LeonLearnTests/LeonLearnTests.csproj",
+    "projectName": "LeonLearnTests",
+    "projectPath": "/Users/leon/Projects/LeonLearn/LeonLearnTests/LeonLearnTests.csproj",
+    "outputPath": "/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/leon/Projects/LeonLearn/LeonLearn/LeonLearn.csproj": {
+            "projectPath": "/Users/leon/Projects/LeonLearn/LeonLearn/LeonLearn.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "MSTest.TestAdapter": {
+          "target": "Package",
+          "version": "[1.2.1, )"
+        },
+        "MSTest.TestFramework": {
+          "target": "Package",
+          "version": "[1.2.1, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.7.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

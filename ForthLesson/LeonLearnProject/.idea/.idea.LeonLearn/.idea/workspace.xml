@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ed31e2d-4490-4d40-9ec3-e7b53b169cb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FifthLesson/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/.vs/SEapplicants/xs/UserPrefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/.vs/SEapplicants/xs/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/.vs/SEapplicants/xs/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/.vs/SEapplicants/xs/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/.vs/SEapplicants/xs/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/SEapplicants.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/bin/Debug/netcoreapp2.1/SEapplicants.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/bin/Debug/netcoreapp2.1/SEapplicants.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/bin/Debug/netcoreapp2.1/SEapplicants.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/bin/Debug/netcoreapp2.1/SEapplicants.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/bin/Debug/netcoreapp2.1/SEapplicants.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/Debug/netcoreapp2.1/SEapplicants.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/SEapplicants.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/SEapplicants.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/SEapplicants.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/applicants/SEapplicants/src/applicants.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/.vs/Tornament/xs/UserPrefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/.vs/Tornament/xs/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/.vs/Tornament/xs/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/.vs/Tornament/xs/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/.vs/Tornament/xs/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/TornamentTests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/UnitTestPair.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/UnitTestPairList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/Tornament.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/Tornament.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/TornamentTests.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/TornamentTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/TornamentTests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/TornamentTests.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/bin/Debug/netcoreapp2.1/TornamentTests.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/Debug/netcoreapp2.1/TornamentTests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/TornamentTests.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/TornamentTests.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/TornamentTests.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/TornamenTests/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/MyTornament" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/ParticipantsList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/Tornament.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/bin/Debug/netcoreapp2.1/Tornament.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/bin/Debug/netcoreapp2.1/Tornament.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/bin/Debug/netcoreapp2.1/Tornament.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/bin/Debug/netcoreapp2.1/Tornament.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/bin/Debug/netcoreapp2.1/Tornament.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Debug/netcoreapp2.1/Tornament.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Tornament.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Tornament.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/Tornament.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/Tornament/test1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLesson/tornamet/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForthLesson/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondLesson/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SixthLesson/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/LeonLearn.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/LeonLearn.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/LeonLearn.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/LeonLearn.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.idea/.idea.LeonChat/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.idea/.idea.LeonChat/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.idea/.idea.LeonChat/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.idea/.idea.LeonChat/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.idea/.idea.LeonChat/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.vs/LeonChat/xs/UserPrefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.vs/LeonChat/xs/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.vs/LeonChat/xs/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.vs/LeonChat/xs/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/.vs/LeonChat/xs/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/.vs/LeonChat/xs/UserPrefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/Channel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/Group.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/IChat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/LeonChat.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/LeonChat.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/Message.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/PersonalChat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/bin/Debug/netcoreapp2.1/LeonChat.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/bin/Debug/netcoreapp2.1/LeonChat.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/bin/Debug/netcoreapp2.1/LeonChat.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/Debug/netcoreapp2.1/LeonChat.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/LeonChat.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/LeonChat.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/LeonChat.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChat/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/ChannelTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/GroupTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/LeonChatTests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/PersonalChatTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChat.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChat.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/LeonChatTests.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/Debug/netcoreapp2.1/LeonChatTests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/LeonChatTests.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/LeonChatTests.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/LeonChatTests.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/LeonChat/LeonChatTests/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdLesson/readme.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="972654218">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="167" />
+          <entry key="csproj" value="1" />
+          <entry key="json" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="164" />
+          <entry key="Csproj" value="1" />
+          <entry key="JSON" value="39" />
+          <entry key="Scratch" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="10885" />
+          <entry key="json" value="546" />
+          <entry key="txt" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="10724" />
+          <entry key="JSON" value="546" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Scratch" value="161" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.revision" value="3" />
+          <entry key="git.branch.compare" value="1" />
+          <entry key="git.branch.rebase" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeonLearn" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeonLearn/ISpeedExerciseSession.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1540850384629" expanded="true" signature="79:179" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeonLearn/WordPair.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+              <folding>
+                <marker date="1540850384630" expanded="true" signature="66:1075" ph="{...}" />
+                <marker date="1540850384630" expanded="true" signature="94:1073" ph="{...}" />
+                <marker date="1540850384630" expanded="true" signature="267:355" ph="{...}" />
+                <marker date="1540850384630" expanded="true" signature="404:546" ph="{...}" />
+                <marker date="1540850384630" expanded="true" signature="589:666" ph="{...}" />
+                <marker date="1540850384630" expanded="true" signature="739:800" ph="{...}" />
+                <marker date="1540850384630" expanded="true" signature="873:935" ph="{...}" />
+                <marker date="1540850384630" expanded="true" signature="978:1067" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeonLearn/Service.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <folding>
+                <marker date="1540850383333" expanded="true" signature="6:47" ph="..." />
+                <marker date="1540850383333" expanded="true" signature="95:1601" ph="{...}" />
+                <marker date="1540850383333" expanded="true" signature="261:589" ph="{...}" />
+                <marker date="1540850383333" expanded="true" signature="637:910" ph="{...}" />
+                <marker date="1540850383333" expanded="true" signature="987:1143" ph="{...}" />
+                <marker date="1540850383333" expanded="true" signature="1213:1372" ph="{...}" />
+                <marker date="1540850383333" expanded="true" signature="1439:1595" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+      <find>&quot;]</find>
+      <find>0</find>
+      <find>1</find>
+      <find>()(?:&quot;\w+)</find>
+      <find>,</find>
+      <find>&quot;,</find>
+      <find>excep</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+      <replace>&quot;],</replace>
+      <replace>1</replace>
+      <replace>0</replace>
+      <replace>}</replace>
+      <replace>{</replace>
+      <replace>&quot;, &quot;translation&quot; :</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/LEON-task4" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56BB0D11-AD8E-4933-9D65-493F201DBEC6/89/a848930a/StringReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/70/4a78c876/Interop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/3b/a5b4de4c/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/4f/83411f43/ConvertUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/71/2b6ffaa8/JsonSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/bc/26bac3ac/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/e0/c5a45f5c/JToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/ISpeedExerciseSession.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/IWordsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/JsonWordsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/SpeedExerciseSession.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A0D3DECB-D022-4015-9A06-EDE27AFC0705/10/393a2ed0/EnumerableHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/JsonUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1467136A-64E8-49A8-8131-500BF7FED664/73/2b315b5e/PlatformServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/0e/d4afb88d/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A0D3DECB-D022-4015-9A06-EDE27AFC0705/c6/1aedc6a0/LargeArrayBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/Service.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1467136A-64E8-49A8-8131-500BF7FED664/76/9aba16c1/TestExecutionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A0D3DECB-D022-4015-9A06-EDE27AFC0705/fb/065925a6/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/Lesson.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1467136A-64E8-49A8-8131-500BF7FED664/f0/07723726/MSTestExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JsonRepositoryTests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearnTests/JsonWordRepositoryTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/e2/60263ad5/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/ff/b24cf0cb/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearnTests/SpeedExerciseTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7BAE8156-CB91-4ADB-B536-E7841848B4C3/0c/4b7dece8/BaseRunTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/95/c18bb978/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/59/e2aa04a5/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearn/WordPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearnTests/UserTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BCB843C-798D-4B6A-8367-EEECB1779B42/1a/47677548/File.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/9f/8b13e260/Encoding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LeonLearnTests/JsonUserRepositoryTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestConsole/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/ce/697cd17b/JArray.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LeonLearn/Class1.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/IUser.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/UserInfo.json" />
+        <option value="$PROJECT_DIR$/JsonRepositoryTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/ISpeedExercise.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/StringPairComparer.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/Words.json" />
+        <option value="$PROJECT_DIR$/LeonLearn/SpeedExercise.cs" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/TestWordsSmall.json" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/TestWords.json" />
+        <option value="$PROJECT_DIR$/LeonLearn/IWordsRepository.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/WordPair.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/SpeedExerciseTests.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/ISpeedExerciseSession.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/Service.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/Users.json" />
+        <option value="$PROJECT_DIR$/TestConsole/Program.cs" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/UserTests.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/Lesson.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/SpeedExerciseSession.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/User.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/JsonUserRepository.cs" />
+        <option value="$PROJECT_DIR$/LeonLearn/JsonWordsRepository.cs" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/JsonWordRepositoryTests.cs" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/TestUsers.json" />
+        <option value="$PROJECT_DIR$/LeonLearnTests/JsonUserRepositoryTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="LeonLearn" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="C#" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Github/FifthLesson" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.TestConsole">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConsole" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestConsole" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TestConsole/TestConsole.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.TestConsole" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.TestConsole" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ed31e2d-4490-4d40-9ec3-e7b53b169cb9" name="Default Changelist" comment="" />
+      <created>1540160328202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540160328202</updated>
+      <workItem from="1540160332435" duration="1338000" />
+      <workItem from="1540311282696" duration="13488000" />
+      <workItem from="1540392576108" duration="11042000" />
+      <workItem from="1540481676561" duration="17870000" />
+      <workItem from="1540571434736" duration="6749000" />
+      <workItem from="1540648025578" duration="4630000" />
+      <workItem from="1540655203273" duration="17000" />
+      <workItem from="1540666860219" duration="14073000" />
+      <workItem from="1540735436193" duration="4317000" />
+      <workItem from="1540823406053" duration="7336000" />
+      <workItem from="1540850005793" duration="756000" />
+      <workItem from="1540851022302" duration="364000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1540849506533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540849506533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81980000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8510204" visible="true" weight="0.27705976" />
+      <window_info id="Structure" order="1" sideWeight="0.14897959" side_tool="true" weight="0.26898223" />
+      <window_info id="Favorites" order="2" sideWeight="0.5020408" side_tool="true" weight="0.25767368" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3890411" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3780822" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3739726" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.1369863" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50080776" side_tool="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.46027398" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950298" visible="true" weight="0.26898223" />
+      <window_info id="Structure" order="1" sideWeight="0.5049702" side_tool="true" weight="0.1720517" />
+      <window_info id="Favorites" order="2" sideWeight="0.5020408" side_tool="true" weight="0.25767368" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6150685" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29726028" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3739726" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Unit Tests" order="11" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50080776" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.8287671" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LeonLearn/User.cs</url>
+          <line>68</line>
+          <properties documentPath="$PROJECT_DIR$/LeonLearn/User.cs" initialLine="68">
+            <startOffsets>
+              <option value="2152" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2153" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LeonLearn/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/JsonRepositoryTests/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/9f/8b13e260/Encoding.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="637" column="8" selection-start-line="637" selection-start-column="8" selection-end-line="637" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/71/2b6ffaa8/JsonSerializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="914" column="6" selection-start-line="914" selection-start-column="6" selection-end-line="914" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/3b/a5b4de4c/JsonSerializerInternalReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BCB843C-798D-4B6A-8367-EEECB1779B42/1a/47677548/File.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/ce/697cd17b/JArray.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="207" column="6" selection-start-line="207" selection-start-column="6" selection-end-line="207" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/4f/83411f43/ConvertUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="290" column="6" selection-start-line="290" selection-start-column="6" selection-end-line="290" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/e0/c5a45f5c/JToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="1807" column="8" selection-start-line="1807" selection-start-column="8" selection-end-line="1807" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56BB0D11-AD8E-4933-9D65-493F201DBEC6/89/a848930a/StringReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/LeonLearnTests.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/e2/60263ad5/List`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="326" column="6" selection-start-line="326" selection-start-column="6" selection-end-line="326" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/0e/d4afb88d/Array.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="727" column="6" selection-start-line="727" selection-start-column="6" selection-end-line="727" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A0D3DECB-D022-4015-9A06-EDE27AFC0705/10/393a2ed0/EnumerableHelpers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A0D3DECB-D022-4015-9A06-EDE27AFC0705/c6/1aedc6a0/LargeArrayBuilder`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7BAE8156-CB91-4ADB-B536-E7841848B4C3/0c/4b7dece8/BaseRunTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="279" column="14" selection-start-line="279" selection-start-column="14" selection-end-line="279" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1467136A-64E8-49A8-8131-500BF7FED664/f0/07723726/MSTestExecutor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1467136A-64E8-49A8-8131-500BF7FED664/76/9aba16c1/TestExecutionManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1467136A-64E8-49A8-8131-500BF7FED664/73/2b315b5e/PlatformServiceProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A0D3DECB-D022-4015-9A06-EDE27AFC0705/fb/065925a6/Enumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="869" column="24" lean-forward="true" selection-start-line="860" selection-end-line="861" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/59/e2aa04a5/Int32.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/70/4a78c876/Interop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="381" column="39" selection-start-line="381" selection-start-column="39" selection-end-line="381" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/ff/b24cf0cb/Random.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/StringPairComparer.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cs" />
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/TestWords.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/IUserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/Words.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/bc/26bac3ac/Dictionary`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/Users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="907" lean-forward="true" selection-start-column="907" selection-end-column="907" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/95/c18bb978/JsonConvert.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="454" column="6" selection-start-line="454" selection-start-column="6" selection-end-line="454" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestConsole/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/IWordsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/Lesson.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/JsonUserRepositoryTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/TestUsers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="885" selection-start-column="885" selection-end-column="885" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/SpeedExerciseTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/SpeedExerciseSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/JsonUserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="22" selection-start-line="22" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/JsonWordsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/JsonWordRepositoryTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/TestWordsSmall.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearnTests/UserTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/ISpeedExerciseSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1540850384629" expanded="true" signature="79:179" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/Service.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1540850383333" expanded="true" signature="6:47" ph="..." />
+            <marker date="1540850383333" expanded="true" signature="95:1601" ph="{...}" />
+            <marker date="1540850383333" expanded="true" signature="261:589" ph="{...}" />
+            <marker date="1540850383333" expanded="true" signature="637:910" ph="{...}" />
+            <marker date="1540850383333" expanded="true" signature="987:1143" ph="{...}" />
+            <marker date="1540850383333" expanded="true" signature="1213:1372" ph="{...}" />
+            <marker date="1540850383333" expanded="true" signature="1439:1595" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeonLearn/WordPair.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+          <folding>
+            <marker date="1540850384630" expanded="true" signature="66:1075" ph="{...}" />
+            <marker date="1540850384630" expanded="true" signature="94:1073" ph="{...}" />
+            <marker date="1540850384630" expanded="true" signature="267:355" ph="{...}" />
+            <marker date="1540850384630" expanded="true" signature="404:546" ph="{...}" />
+            <marker date="1540850384630" expanded="true" signature="589:666" ph="{...}" />
+            <marker date="1540850384630" expanded="true" signature="739:800" ph="{...}" />
+            <marker date="1540850384630" expanded="true" signature="873:935" ph="{...}" />
+            <marker date="1540850384630" expanded="true" signature="978:1067" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+/Users/leon/Projects/LeonLearn/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.deps.json
+/Users/leon/Projects/LeonLearn/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.runtimeconfig.json
+/Users/leon/Projects/LeonLearn/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.runtimeconfig.dev.json
+/Users/leon/Projects/LeonLearn/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.dll
+/Users/leon/Projects/LeonLearn/TestConsole/bin/Debug/netcoreapp2.1/TestConsole.pdb
+/Users/leon/Projects/LeonLearn/TestConsole/bin/Debug/netcoreapp2.1/LeonLearn.dll
+/Users/leon/Projects/LeonLearn/TestConsole/bin/Debug/netcoreapp2.1/LeonLearn.pdb
+/Users/leon/Projects/LeonLearn/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.csprojAssemblyReference.cache
+/Users/leon/Projects/LeonLearn/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonLearn/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonLearn/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.AssemblyInfo.cs
+/Users/leon/Projects/LeonLearn/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.csproj.CopyComplete
+/Users/leon/Projects/LeonLearn/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.dll
+/Users/leon/Projects/LeonLearn/TestConsole/obj/Debug/netcoreapp2.1/TestConsole.pdb
