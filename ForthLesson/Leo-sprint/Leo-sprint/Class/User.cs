@@ -12,6 +12,14 @@ namespace Leo_sprint
         private List<Word> learned_words;
         private List<Word> words_in_process;
 
+        public User(string nickname, Guid id, List<Word> learned_words, List<Word> words_in_process)
+        {
+            _nickname = nickname;
+            _id = id;
+            this.learned_words = learned_words;
+            this.words_in_process = words_in_process;
+        }
+
         public Session StartSession()
         {
             return Session.Create(words_in_process.ToArray());

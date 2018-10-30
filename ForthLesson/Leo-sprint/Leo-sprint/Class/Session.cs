@@ -32,10 +32,10 @@ namespace Leo_sprint
 
 
         }
-        public void Show()
+        public void Show(User user)
         {
             var user_answers = PrintWordsAndGetAnswers(_words);
-            var wrong_answers = CheckAnswers(user_answers, words, _words);
+            var wrong_answers = user.CheckAnswers(user_answers, _words);
             ShowWhatsWrongInAnswers(wrong_answers);
         }
 
@@ -59,21 +59,20 @@ namespace Leo_sprint
 
         private void ShowWhatsWrongInAnswers(List<Word> wrong_answers)
         {
-            foreach(var Word in wrong_answers)
+            foreach (var Word in wrong_answers)
             {
-                Console.WriteLine("You answered wrong. Right translation is"+ Word._in_russian);
+                Console.WriteLine("You answered wrong. Right translation is" + Word._in_russian);
             }
         }
 
         private bool[] PrintWordsAndGetAnswers(Word[] _words)
         {
             var size = _words.Length;
-            var i = 0;
             var answers = new bool[size];
-            while (i < size)
+            for (int i = 0; i < size; i++)
             {
                 PrintQuestion(_words[i]);
-                ConvertAnswer(GetAnswers());
+                answers[i] = ConvertAnswer(GetAnswers());
             }
             return answers;
 
@@ -101,20 +100,6 @@ namespace Leo_sprint
         private void PrintQuestion(Word word)
         {
             Console.WriteLine(word._in_english + "-" + word._in_russian + "is right?");
-        }
-
-        private List<Word> CheckAnswers(bool[] user_answers, Word[] words, Word[] words_in_question)//неправильный алгоритм
-        {
-
-            var wrong_answers = new List<Word>();
-            for (int i = 0; i < words.Length; i++)
-            {
-                if (words[i].Equals(words_in_question[i]) != user_answers[i])
-                {
-                    wrong_answers.Add(words[i]);
-                }
-            }
-            return wrong_answers;
         }
 
         private static Word GetWordWithWrongTranslation(Word[] words, int index, Random random)
