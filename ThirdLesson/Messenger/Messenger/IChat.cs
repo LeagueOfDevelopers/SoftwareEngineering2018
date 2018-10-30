@@ -7,10 +7,6 @@ namespace Messenger
     {
         Guid Id { get; }
 
-        IEnumerable<IUser> Users { get; }
-
-        IEnumerable<IMessage> Messages { get; }
-
         void AddMessage(IMessage message);
 
         void ChangeMessage(Guid messageId, string newBody);
