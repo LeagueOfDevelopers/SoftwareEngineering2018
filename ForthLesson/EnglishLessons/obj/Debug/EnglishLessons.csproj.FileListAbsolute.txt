@@ -1,0 +1,9 @@
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\bin\Debug\EnglishLessons.dll
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\bin\Debug\EnglishLessons.pdb
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\bin\Debug\Newtonsoft.Json.dll
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\bin\Debug\Newtonsoft.Json.xml
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\obj\Debug\EnglishLessons.csprojAssemblyReference.cache
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\obj\Debug\EnglishLessons.csproj.CoreCompileInputs.cache
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\obj\Debug\EnglishLessons.csproj.CopyComplete
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\obj\Debug\EnglishLessons.dll
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessons\EnglishLessons\obj\Debug\EnglishLessons.pdb
