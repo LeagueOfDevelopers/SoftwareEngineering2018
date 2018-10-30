@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoD_Chat", "LoD_Chat\LoD_Chat.csproj", "{F80C411D-8A71-40BB-AF43-340DCCA21C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat_Tests", "Chat_Tests\Chat_Tests.csproj", "{8AFEEF15-82EC-4E02-B889-FAAD9C4C766B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80C411D-8A71-40BB-AF43-340DCCA21C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80C411D-8A71-40BB-AF43-340DCCA21C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80C411D-8A71-40BB-AF43-340DCCA21C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80C411D-8A71-40BB-AF43-340DCCA21C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AFEEF15-82EC-4E02-B889-FAAD9C4C766B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFEEF15-82EC-4E02-B889-FAAD9C4C766B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFEEF15-82EC-4E02-B889-FAAD9C4C766B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFEEF15-82EC-4E02-B889-FAAD9C4C766B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
