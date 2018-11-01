@@ -1,0 +1,17 @@
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/LeonLearnTests.deps.json
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/LeonLearnTests.runtimeconfig.json
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/LeonLearnTests.runtimeconfig.dev.json
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/LeonLearnTests.dll
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/LeonLearnTests.pdb
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/LeonLearn.dll
+/Users/leon/Projects/LeonLearn/LeonLearnTests/bin/Debug/netcoreapp2.1/LeonLearn.pdb
+/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.csprojAssemblyReference.cache
+/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.AssemblyInfo.cs
+/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.csproj.CopyComplete
+/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.dll
+/Users/leon/Projects/LeonLearn/LeonLearnTests/obj/Debug/netcoreapp2.1/LeonLearnTests.pdb

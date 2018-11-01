@@ -1,0 +1,9 @@
+/Users/leon/Projects/LeonLearn/LeonLearn/bin/Debug/netcoreapp2.1/LeonLearn.deps.json
+/Users/leon/Projects/LeonLearn/LeonLearn/bin/Debug/netcoreapp2.1/LeonLearn.dll
+/Users/leon/Projects/LeonLearn/LeonLearn/bin/Debug/netcoreapp2.1/LeonLearn.pdb
+/Users/leon/Projects/LeonLearn/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.csprojAssemblyReference.cache
+/Users/leon/Projects/LeonLearn/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonLearn/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonLearn/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.AssemblyInfo.cs
+/Users/leon/Projects/LeonLearn/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.dll
+/Users/leon/Projects/LeonLearn/LeonLearn/obj/Debug/netcoreapp2.1/LeonLearn.pdb
