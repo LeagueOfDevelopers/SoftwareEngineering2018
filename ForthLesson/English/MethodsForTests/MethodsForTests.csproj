@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8CBBA4E9-3278-4486-9389-E92F43D1B1D3}</ProjectGuid>
+    <ProjectGuid>{2D32D934-4BAC-49B7-902D-92AA2A9A4483}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Messenger</RootNamespace>
-    <AssemblyName>Messenger</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>MethodsForTests</RootNamespace>
+    <AssemblyName>MethodsForTests</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -41,28 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Channel\Channel.cs" />
-    <Compile Include="Channel\ChannelService.cs" />
-    <Compile Include="Channel\IChannel.cs" />
-    <Compile Include="CompositionRoot.cs" />
-    <Compile Include="Group\GroupService.cs" />
-    <Compile Include="Group\IGroup.cs" />
-    <Compile Include="IChatService.cs" />
-    <Compile Include="PrivateChat\PrivateChat.cs" />
-    <Compile Include="User\User.cs" />
-    <Compile Include="Group\Group.cs" />
-    <Compile Include="IChat.cs" />
-    <Compile Include="User\IUser.cs" />
-    <Compile Include="Message\IMessage.cs" />
-    <Compile Include="PrivateChat\PrivateChatService.cs" />
-    <Compile Include="Channel\ChannelRepository.cs" />
-    <Compile Include="Group\GroupRepository.cs" />
-    <Compile Include="PrivateChat\PrivateChatRepository.cs" />
-    <Compile Include="User\UserRepository.cs" />
-    <Compile Include="Message\Message.cs" />
-    <Compile Include="Message\MessageRepository.cs" />
+    <Compile Include="MethodsForTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\English\English.csproj">
+      <Project>{92dc9a00-318b-4233-9717-a4f55906f631}</Project>
+      <Name>English</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

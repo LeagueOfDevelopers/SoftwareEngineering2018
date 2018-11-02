@@ -26,7 +26,6 @@ namespace TestChannel
             Assert.AreEqual(message.Id, channel.Messages.First().Id);
         }
 
-
         [TestMethod]
         public void ChangeMessage_ChangedMessage()
         {
