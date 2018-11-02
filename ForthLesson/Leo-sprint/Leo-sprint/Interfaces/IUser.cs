@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Leo_sprint
 {
@@ -6,5 +7,8 @@ namespace Leo_sprint
     {
         Guid _id { get; }
         string _nickname { get; }
+        void AddNewWordInDictionary(Word word);
+        IEnumerable<Word> ShowWordInProgress();
+        IEnumerable<Word> ShowLearnedWord();
     }
 }

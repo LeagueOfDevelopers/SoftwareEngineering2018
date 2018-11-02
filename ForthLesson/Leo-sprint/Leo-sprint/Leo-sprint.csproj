@@ -49,7 +49,6 @@
     <Compile Include="Class\Session.cs" />
     <Compile Include="Class\User.cs" />
     <Compile Include="Class\Word.cs" />
-    <Compile Include="Client\UserClient.cs" />
     <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

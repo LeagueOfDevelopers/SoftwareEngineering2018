@@ -55,5 +55,6 @@ namespace SessionTest
             var expected_list = new List<Word> { new Word("eng", "rus", 0) };
             CollectionAssert.ReferenceEquals(list, expected_list);
         }
+       
     }
 }

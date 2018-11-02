@@ -36,5 +36,10 @@ namespace Leo_sprint
             hashCode = hashCode * -1521134295 + _flag.GetHashCode();
             return hashCode;
         }
+
+        private void FlagGrowsOnePoint()
+        {
+            _flag++;
+        }
     }
 }

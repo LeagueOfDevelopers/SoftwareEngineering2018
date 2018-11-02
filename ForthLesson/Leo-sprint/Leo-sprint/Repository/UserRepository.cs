@@ -1,23 +1,48 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IO;
+
 
 namespace Leo_sprint
 {
     public class UserRepository
     {
-        public void Create(Guid id)
+
+        public static IEnumerable<string> GetAllUsers()
         {
-            File.Create(id.ToString() + ".txt");
+            var json_users = new List<string>();
+            string[] users_paths;
+            if (File.Exists("users.txt"))
+            {
+                users_paths = File.ReadAllLines("users.txt");
+                foreach (var path in users_paths)
+                {
+                    var json = File.ReadAllText(path);                    
+                    json_users.Add(json);
+                }
+            }
+            return json_users;
+
         }
-        public void Update(User user)
+
+        public static Guid Create(string nickname)
         {
-            File.WriteAllText(user._id.ToString() + ".txt", JsonConvert.SerializeObject(user));
+            var id = Guid.NewGuid();
+            var new_user = new User(nickname, id, new List<Word>(), new List<Word>());
+            File.AppendAllText("users.txt", id.ToString() + ".txt\n");
+            File.WriteAllText(new_user._id.ToString() + ".txt", JsonConvert.SerializeObject(new_user));
+            return id;
         }
-        public IUser Get(Guid id)//Authentication
+        public static void Update(User user)
         {
-            var json = File.ReadAllText(id.ToString() + ".txt");
-            return JsonConvert.DeserializeObject<User>(json);
+            File.AppendAllText(user._id.ToString() + ".txt", JsonConvert.SerializeObject(user));
+        }
+       
+        public static string GetJson(Guid id)
+        {
+            return File.ReadAllText(id.ToString() + ".txt");
+
         }
     }
 }

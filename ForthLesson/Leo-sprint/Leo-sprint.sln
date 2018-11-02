@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo-sprint", "Leo-sprint\Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionTest", "SessionTest\SessionTest.csproj", "{BDF09280-E31F-451D-9EEB-8782872ACF44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo-sprintAPI", "WebApplication1\Leo-sprintAPI.csproj", "{09F18761-E54A-45D1-B3AA-134404CC581A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BDF09280-E31F-451D-9EEB-8782872ACF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDF09280-E31F-451D-9EEB-8782872ACF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDF09280-E31F-451D-9EEB-8782872ACF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F18761-E54A-45D1-B3AA-134404CC581A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F18761-E54A-45D1-B3AA-134404CC581A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F18761-E54A-45D1-B3AA-134404CC581A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F18761-E54A-45D1-B3AA-134404CC581A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
