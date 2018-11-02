@@ -1,0 +1,15 @@
+﻿using System;
+
+namespace LoDSprint.Exceptions
+{
+    public class PermissionDeniedException : Exception
+    {
+        public PermissionDeniedException()
+        {
+        }
+
+        public PermissionDeniedException(string message) : base(message)
+        {
+        }
+    }
+}
