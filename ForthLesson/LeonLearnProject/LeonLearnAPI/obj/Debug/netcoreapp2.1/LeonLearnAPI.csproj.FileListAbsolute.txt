@@ -1,0 +1,17 @@
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/bin/Debug/netcoreapp2.1/LeonLearnAPI.deps.json
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/bin/Debug/netcoreapp2.1/LeonLearnAPI.runtimeconfig.json
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/bin/Debug/netcoreapp2.1/LeonLearnAPI.runtimeconfig.dev.json
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/bin/Debug/netcoreapp2.1/LeonLearnAPI.dll
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/bin/Debug/netcoreapp2.1/LeonLearnAPI.pdb
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.csprojAssemblyReference.cache
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.RazorAssemblyInfo.cache
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.RazorAssemblyInfo.cs
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.AssemblyInfo.cs
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.RazorTargetAssemblyInfo.cache
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.dll
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.pdb
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/bin/Debug/netcoreapp2.1/LeonLearn.dll
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/bin/Debug/netcoreapp2.1/LeonLearn.pdb
+/Users/leon/Projects/LeonLearnAPI/LeonLearnAPI/obj/Debug/netcoreapp2.1/LeonLearnAPI.csproj.CopyComplete
