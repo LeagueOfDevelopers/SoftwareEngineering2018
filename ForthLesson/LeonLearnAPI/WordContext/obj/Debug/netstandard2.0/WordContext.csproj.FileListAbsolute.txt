@@ -1,0 +1,12 @@
+/Users/leon/Projects/LeonLearnAPI/WordContext/bin/Debug/netstandard2.0/WordContext.deps.json
+/Users/leon/Projects/LeonLearnAPI/WordContext/bin/Debug/netstandard2.0/WordContext.dll
+/Users/leon/Projects/LeonLearnAPI/WordContext/bin/Debug/netstandard2.0/WordContext.pdb
+/Users/leon/Projects/LeonLearnAPI/WordContext/bin/Debug/netstandard2.0/Newtonsoft.Json.dll
+/Users/leon/Projects/LeonLearnAPI/WordContext/bin/Debug/netstandard2.0/Newtonsoft.Json.xml
+/Users/leon/Projects/LeonLearnAPI/WordContext/obj/Debug/netstandard2.0/WordContext.csprojAssemblyReference.cache
+/Users/leon/Projects/LeonLearnAPI/WordContext/obj/Debug/netstandard2.0/WordContext.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonLearnAPI/WordContext/obj/Debug/netstandard2.0/WordContext.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonLearnAPI/WordContext/obj/Debug/netstandard2.0/WordContext.AssemblyInfo.cs
+/Users/leon/Projects/LeonLearnAPI/WordContext/obj/Debug/netstandard2.0/WordContext.csproj.CopyComplete
+/Users/leon/Projects/LeonLearnAPI/WordContext/obj/Debug/netstandard2.0/WordContext.dll
+/Users/leon/Projects/LeonLearnAPI/WordContext/obj/Debug/netstandard2.0/WordContext.pdb

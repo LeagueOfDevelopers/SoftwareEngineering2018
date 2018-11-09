@@ -1,0 +1,63 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/leon/Projects/LeonLearnAPI/UserContext/UserContext.csproj",
+    "projectName": "UserContext",
+    "projectPath": "/Users/leon/Projects/LeonLearnAPI/UserContext/UserContext.csproj",
+    "outputPath": "/Users/leon/Projects/LeonLearnAPI/UserContext/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/Users/leon/Projects/LeonLearnAPI/WordContext/WordContext.csproj": {
+            "projectPath": "/Users/leon/Projects/LeonLearnAPI/WordContext/WordContext.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[1.50.5, )"
+        },
+        "Microsoft.CSharp": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        },
+        "MongoDB.Driver": {
+          "target": "Package",
+          "version": "[2.7.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.6.0-preview3-27014-02, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
