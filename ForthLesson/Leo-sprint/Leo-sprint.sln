@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo-sprint", "Leo-sprint\Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionTest", "SessionTest\SessionTest.csproj", "{BDF09280-E31F-451D-9EEB-8782872ACF44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo-sprintAPI", "WebApplication1\Leo-sprintAPI.csproj", "{09F18761-E54A-45D1-B3AA-134404CC581A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LEO-sprintAPI", "WebApplication1\LEO-sprintAPI.csproj", "{09F18761-E54A-45D1-B3AA-134404CC581A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Leo_sprint;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace WebApplication1
@@ -29,6 +24,9 @@ namespace WebApplication1
             {
                 c.SwaggerDoc("v1", new Info { Title = "", Version = "v1" });
             });
+            var mongoConnectionString = Configuration.GetValue<string>("mongoConnectionString");
+            IUserRepository mongoUserRepository = new MongoUserRepository(mongoConnectionString);
+            services.AddSingleton(mongoUserRepository);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

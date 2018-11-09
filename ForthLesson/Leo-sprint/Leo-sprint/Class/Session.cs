@@ -1,43 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Leo_sprint
 {
     public class Session
     {
-        private Word[] _words;
+        private Word[] words;
         private Random randomizer;
+        private bool[] answers;
+        public Guid _id { get; }
 
-        public Session(Word[] words, Random randomizer)
+        public Session(Word[] words, Random randomizer, Guid id)
         {
-            _words = words;
+            this.words = words;
             this.randomizer = randomizer;
+            _id = id;
         }
 
         public static Session Create(Word[] words)
         {
-            Word[] words_in_tasks = new Word[words.Length];
             var random = new Random();
-            for (int i = 0; i < words.Length; i++)
+            var id = Guid.NewGuid();
+            var words_in_tasks = words.Select(word =>
             {
                 if (random.Next(2) == 1)
                 {
-                    words_in_tasks[i] = GetWordWithWrongTranslation(words, i, random);
+                    word = GetWordWithWrongTranslation(words, word, random);
                 }
-            }
-
+                return word;
+            }).ToArray();
             words_in_tasks = MixedWords(words_in_tasks, random);
-            return new Session(words_in_tasks, random);
-        }    
+            return new Session(words_in_tasks, random,id);
+        }
 
         private static Word[] MixedWords(Word[] words_in_tasks, Random random)
         {
             var new_words = words_in_tasks;
             Word temp;
             int random_index;
-            for (int i = words_in_tasks.Length; i > 2; i++)
+            for (int i = words_in_tasks.Length - 1; i > 2; i--)
             {
-                random_index = random.Next(i) + 1;
+                random_index = random.Next(i);
                 if (random_index != i)
                 {
                     temp = new_words[i];
@@ -45,39 +49,33 @@ namespace Leo_sprint
                     new_words[random_index] = temp;
                 }
             }
+            
             return new_words;
         }
         public IEnumerable<string> ShowTask()
         {
-            var task = new List<string>();
-            foreach (var word in _words)
-            {
-                task.Add(word._in_english + "-" + word._in_russian);
-            }
+            var task = words.Select(word => word._in_english + "-" + word._in_russian);
             return task;
         }
-
-        public string ShowWhatsWrongInAnswers(List<Word> wrong_answers)
+        public void GetAnswers(bool[] answers)
         {
-            var words = $"You answered wrong. Right translations are\n";
-            foreach (var Word in wrong_answers)
-            {
-                words  += Word._in_russian + "\n" ;
-            }
-            return words;
+            this.answers = answers;
         }
 
-        private static Word GetWordWithWrongTranslation(Word[] words, int index, Random random)
+        public List<Word> CheckAnswers(User user)
         {
-            var first_index = index;
-            var second_index = random.Next(0, words.Length);
-            while (first_index == second_index)
-            {
-                second_index = random.Next(0, words.Length);
-            }
-            return new Word(words[first_index]._in_english, words[second_index]._in_russian, 0);
+            return user.CheckAnswers(answers, words);
 
         }
 
+        private static Word GetWordWithWrongTranslation(Word[] words, Word word, Random random)
+        {
+            var index = random.Next(0, words.Length);
+            while (words[index]._in_russian == word._in_russian)
+            {
+                index = random.Next(0, words.Length);
+            }
+            return new Word(word._in_english, words[index]._in_russian, 0);
+        }
     }
 }
