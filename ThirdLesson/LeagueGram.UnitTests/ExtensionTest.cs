@@ -9,7 +9,7 @@ namespace LeagueGram.UnitTests
 		[TestMethod]
 		public void DecapitalizeString_FirstCharIsInLowerCase()
 		{
-			var stringToDecapitalize = "Vasya";
+			var stringToDecapitalize = "Zhenya";
 						
 			var result = stringToDecapitalize.Decapitalize();
 
