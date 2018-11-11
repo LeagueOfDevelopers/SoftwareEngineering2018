@@ -1,0 +1,14 @@
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\bin\Debug\netcoreapp2.1\EnglishLessonsApi.deps.json
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\bin\Debug\netcoreapp2.1\EnglishLessonsApi.runtimeconfig.json
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\bin\Debug\netcoreapp2.1\EnglishLessonsApi.runtimeconfig.dev.json
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\bin\Debug\netcoreapp2.1\EnglishLessonsApi.dll
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.csprojAssemblyReference.cache
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.csproj.CoreCompileInputs.cache
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.RazorAssemblyInfo.cache
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.RazorAssemblyInfo.cs
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.AssemblyInfoInputs.cache
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.AssemblyInfo.cs
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.RazorTargetAssemblyInfo.cache
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\bin\Debug\netcoreapp2.1\EnglishLessonsApi.pdb
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.dll
+C:\Users\markp\Desktop\Programming\C#\League\EnglishLessonsApi\EnglishLessonsApi\obj\Debug\netcoreapp2.1\EnglishLessonsApi.pdb
