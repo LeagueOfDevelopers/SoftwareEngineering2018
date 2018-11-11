@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.1/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.1/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.1/build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_LeonLearnAPI.-1992008523.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$/../LeonLearn/LeonLearn" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ISpeedExerciseSession.cs" t="Include" />
+      <e p="LeonLearn.csproj" t="IncludeRecursive" />
+      <e p="Lesson.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="LeonLearn.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Service.cs" t="Include" />
+      <e p="SpeedExerciseSession.cs" t="Include" />
+      <e p="Users.json" t="Include" />
+      <e p="Words.json" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="LeonLearnAPI" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="LessonsController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
+        </e>
+        <e p="LeonLearnAPI.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="EndLessonRequest.cs" t="Include" />
+          <e p="RegisterUserRequest.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="LeonLearnAPI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="LeonLearnAPI.sln" t="IncludeFlat" />
+      <e p="LeonLearnTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LeonLearnTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="LeonLearnTests.AssemblyInfo.cs" t="Include" />
+              <e p="LeonLearnTests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="UserContext" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IUserRepository.cs" t="Include" />
+        <e p="JsonUserRepository.cs" t="Include" />
+        <e p="MongoUserRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="UserContext.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SqlUserRepository.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+        <e p="UserContext.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WordContext" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="IWordsRepository.cs" t="Include" />
+        <e p="JsonWordsRepository.cs" t="Include" />
+        <e p="MongoWordsRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="WordContext.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SqlWordRepository.cs" t="Include" />
+        <e p="WordContext.csproj" t="IncludeRecursive" />
+        <e p="WordExtensions.cs" t="Include" />
+        <e p="WordPair.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

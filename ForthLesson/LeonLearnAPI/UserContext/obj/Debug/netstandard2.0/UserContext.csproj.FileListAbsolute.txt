@@ -1,0 +1,14 @@
+/Users/leon/Projects/LeonLearnAPI/UserContext/bin/Debug/netstandard2.0/UserContext.deps.json
+/Users/leon/Projects/LeonLearnAPI/UserContext/bin/Debug/netstandard2.0/UserContext.dll
+/Users/leon/Projects/LeonLearnAPI/UserContext/bin/Debug/netstandard2.0/UserContext.pdb
+/Users/leon/Projects/LeonLearnAPI/UserContext/bin/Debug/netstandard2.0/Newtonsoft.Json.dll
+/Users/leon/Projects/LeonLearnAPI/UserContext/bin/Debug/netstandard2.0/WordContext.dll
+/Users/leon/Projects/LeonLearnAPI/UserContext/bin/Debug/netstandard2.0/WordContext.pdb
+/Users/leon/Projects/LeonLearnAPI/UserContext/bin/Debug/netstandard2.0/Newtonsoft.Json.xml
+/Users/leon/Projects/LeonLearnAPI/UserContext/obj/Debug/netstandard2.0/UserContext.csprojAssemblyReference.cache
+/Users/leon/Projects/LeonLearnAPI/UserContext/obj/Debug/netstandard2.0/UserContext.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/LeonLearnAPI/UserContext/obj/Debug/netstandard2.0/UserContext.AssemblyInfoInputs.cache
+/Users/leon/Projects/LeonLearnAPI/UserContext/obj/Debug/netstandard2.0/UserContext.AssemblyInfo.cs
+/Users/leon/Projects/LeonLearnAPI/UserContext/obj/Debug/netstandard2.0/UserContext.csproj.CopyComplete
+/Users/leon/Projects/LeonLearnAPI/UserContext/obj/Debug/netstandard2.0/UserContext.dll
+/Users/leon/Projects/LeonLearnAPI/UserContext/obj/Debug/netstandard2.0/UserContext.pdb
